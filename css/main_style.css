@@ -1201,12 +1201,13 @@ figure img {
 }
 
 /*-------------------------------------------------------*/
-/*05_make to order*/
+/* 05_make to order - 1920 ~ 1320px (PC) */
 /*-------------------------------------------------------*/
-/* 1920 ~ 1320px */
+
 #make_wrap {
 	width: 100%;
 	height: 200px;
+	margin-bottom: 100px;
 	background-image: url(../images/05_make/make_bg_or.jpg);
 	background-position: center;
 	background-attachment: fixed;
@@ -1215,8 +1216,7 @@ figure img {
 
 .make_center {
 	width: 1320px;
-	margin: 0 auto;
-	margin-bottom: 100px;
+	margin: 0 auto;	
 }
 
 .make_text {
@@ -1257,160 +1257,102 @@ figure img {
 }
 
 
+/*-------------------------------------------------------*/
+/* 05_make to order - 1319 ~ 769px (PC) */
+/*-------------------------------------------------------*/
+
+	@media screen and (max-width: 1319px) {
+
+		#make_wrap {
+			margin-bottom: 100px;
+		}
+		
+		.make_center {
+			width: 100%;
+		}
+		
+	}
 
 /*-------------------------------------------------------*/
-/* 1319 ~ 768px */
+/* 05_make to order - 768 ~ 371px (tablet) */
 /*-------------------------------------------------------*/
-@media screen and (max-width: 1319px) {
-	.make_center {
-		width: 100%;
-		margin: 0 auto;
-		margin-bottom: 100px;
-	}
-}
-/*-------------------------------------------------------*/
-/* 371px */
-/*-------------------------------------------------------*/
-@media screen and (max-width: 370px) {
-	#make_wrap {
-		width: 100%;
-		height: 200px;
-		background-image: url(../images/05_make/make_bg_or.jpg);
-		background-position: center;
-		background-attachment: fixed;
-		background-repeat: repeat;
-	}
+
+	@media screen and (max-width: 768px) {
+		
+		#make_wrap {
+			margin-bottom: 50px;
+		}
+		
+		.make_center {
+			width: 100%;
+		}
+		
+		.make_text {
+			text-align: center;
+			padding-top: 3.5vh;
+		}
+			
+		.make_tx1 {
+			font-size: 15px;
+			text-shadow: 5px 5px 5px  #824618;
+		}
+		
+		.make_br {
+			display: block;
+		}
 	
-	.make_center {
-		width: 100%;
-		margin: 0 auto;
-		margin-bottom: 50px;
-	}
-	
-	.make_text {
-		text-align: center;
-		padding-top: 3.5vh;
-	}
-	
-	/* .make_text h1 {
-		color: #fff;
-		text-shadow: 5px 5px 8px  #824618;
-	} */
-	
-	.make_tx1 {
-		font-family: 'NEXON Lv2 Gothic';
-		color: #fff;
-		font-size: 15px;
-		font-weight: 500;
-		margin: 10px 0;
-		text-shadow: 5px 5px 5px  #824618;
-	}
-	
-	.make_br {
-		display: block;
 	}
 
-	/* .make_btn {
-		text-align: center;
-		margin: 30px 0;
-	} */
-	
-	/* .make_btn a {
-		color: #fff;
-		background-color: rgba(255, 255, 255, 0);
-		padding: 10px 40px 7px;
-		border: 3px solid #fff;
-		border-radius: 50px;
-		transition: box-shadow 0.25s ease-in-out;
-	} */
-	
-	/* .make_btn a:hover {
-		border: 3px solid #a67c52;
-		box-shadow: inset -500px 0 0 0 #824618;
-	} */
-	
-}
+/*-------------------------------------------------------*/
+/* 05_make to order - 370 ~ 0px (mobile) */
+/*-------------------------------------------------------*/
 
-@media screen and (max-width: 768px) {
-	#make_wrap {
-		width: 100%;
-		height: 200px;
-		background-image: url(../images/05_make/make_bg_or.jpg);
-		background-position: center;
-		background-attachment: fixed;
-		background-repeat: repeat;
-	}
-	
-	.make_center {
-		width: 100%;
-		margin: 0 auto;
-		margin-bottom: 100px;
-	}
-	
-	.make_text {
-		text-align: center;
-		padding-top: 3.5vh;
-	}
-	
-	/* .make_text h1 {
-		color: #fff;
-		text-shadow: 5px 5px 8px  #824618;
-	} */
-	
-	.make_tx1 {
-		font-family: 'NEXON Lv2 Gothic';
-		color: #fff;
-		font-size: 15px;
-		font-weight: 500;
-		margin: 10px 0;
-		text-shadow: 5px 5px 5px  #824618;
-	}
-	
-	.make_br {
-		display: block;
-	}
+	@media screen and (max-width: 370px) {
 
-	/* .make_btn {
-		text-align: center;
-		margin: 30px 0;
-	} */
-	
-	/* .make_btn a {
-		color: #fff;
-		background-color: rgba(255, 255, 255, 0);
-		padding: 10px 40px 7px;
-		border: 3px solid #fff;
-		border-radius: 50px;
-		transition: box-shadow 0.25s ease-in-out;
-	} */
-	
-	/* .make_btn a:hover {
-		border: 3px solid #a67c52;
-		box-shadow: inset -500px 0 0 0 #824618;
-	} */
-	
-}
+		#make_wrap {
+			margin-bottom: 100px;
+		}
+		
+		.make_center {
+			width: 100%;
+		}
+		
+		.make_text {
+			padding-top: 3.5vh;
+		}
+			
+		.make_tx1 {
+			font-size: 15px;
+			font-weight: 500;
+			text-shadow: 5px 5px 5px  #824618;
+		}
+		
+		.make_br {
+			display: block;
+		}
+		
+	}
 	
 
 /*-------------------------------------------------------*/
-/*06_BEST review*/
+/* 06_BEST review - 1920 ~ 1320px (PC) */
 /*-------------------------------------------------------*/
-/* 1920 ~ 1320px */
+
 #review_wrap {
 	width: 100%;
+	margin-bottom: 100px;
 }
 
 .review_center {
 	width: 1320px;
 	margin: 0px auto;
 	overflow: hidden;
-	margin-bottom: 100px;
 }
 
 /*-------------------------------------------------------*/
 
  /* 사이드 이펙트1 */
- .side1 {
+ .review {
 	position: relative;
 	perspective: 600px; 
 	display: block;
@@ -1419,11 +1361,11 @@ figure img {
 	overflow: hidden;
 }
 
-.side1 img {
+.review img {
 	width: 100%;
 }
 
- .side1 .front {
+ .review .front {
 	width: 100%;
 	height: 100%;
 	transform-style: preserve-3d;
@@ -1434,7 +1376,7 @@ figure img {
 	background-repeat: no-repeat;
 	background-position: center;
  }
- .side1 .back {
+ .review .back {
 	 position: absolute; top: 0; left: 0;
 	 width: 100%; height: 100%; z-index: -1;
 	 transform-style: preserve-3d;
@@ -1448,25 +1390,25 @@ figure img {
 	 background-position: center;
  }
 
-.side2 .front {
+.review_2 .front {
 	background-image: url(../images/06_review/review_img_390_02_02.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.side2 .back {
+.review_2 .back {
 	background-image: url(../images/06_review/review_img_390_02.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.side3 .front {
+.review_3 .front {
 	background-image: url(../images/06_review/review_img_390_02_03.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.side3 .back {
+.review_3 .back {
 	background-image: url(../images/06_review/review_img_390_03.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1474,9 +1416,8 @@ figure img {
 
 
 
- .side1 .back i {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 60px;}
- .side1:hover .front {transform: rotateY(180deg)}
- .side1:hover .back {transform: rotateY(0deg); z-index: 1;}
+ .review:hover .front {transform: rotateY(180deg)}
+ .review:hover .back {transform: rotateY(0deg); z-index: 1;}
 
  /*-------------------------------------------------------*/
 
@@ -1490,20 +1431,21 @@ figure img {
 } 
 
 .review_text p {
+	font-family: 'NEXON Lv2 Gothic';
+	font-weight: 600;
 	color: #a67c52;
 	font-size: 17px;
-	font-weight: 700;
 	margin: 10px 0 20px;
 }
 
 /*-------------------------------------------------------*/
-.side_box {
+.review_box {
 	width: 100%;
 	margin: 20px 0;
 	display: flex;
 	justify-content: space-between;
 }
-.side_box .side1 {
+.review_box .review {
 	text-align: center;
 }	
 
@@ -1512,410 +1454,189 @@ figure img {
 }
 
 .front h2 {
-	color: #4e6458;
+	color: #fff;
 	margin: 10px 0;
 }
 
-.side1_tx1 {
+.review_tx1 {
+	font-family: 'NEXON Lv2 Gothic';
 	font-size: 16px;
-	color: #a67c52;
+	color: #ffc68c;
 	padding: 20px 0;
-	border-top: 1px solid #a67c52;
-	border-bottom: 1px solid #a67c52;
+	border-top: 1px solid #ffc68c;
+	border-bottom: 1px solid #ffc68c;
+}
+
+.review_tx2 {
+	font-family: 'NEXON Lv2 Gothic';
+	font-size: 15px;
+	color: #d8d8d8;
+	padding: 20px 0;
 }
 
 .review_br {
 	display: block;
 }
 
-.side1_tx2 {
-	font-size: 15px;
-	color: #9c9c9c;
-	padding: 20px 0;
+.review_tx3 {
+	color: #d8d8d8;
 }
 
-.side1_tx3 {
-	color: #9c9c9c;
-}
 
 /*-------------------------------------------------------*/
+/* 06_BEST review - 1319 ~ 769px (PC) */
+/*-------------------------------------------------------*/
 
-/*-------------------------------------------------------*/
-/* 1920 ~ 1320px */
-/*-------------------------------------------------------*/
-@media screen and (max-width: 1319px) {
+	@media screen and (max-width: 1319px) {
 	
-/* #review_wrap {
-	width: 100%;
-} */
-
-.review_center {
-	width: 100%;
-	margin-bottom: 100px;
-	/* margin: 0 auto;
-	overflow: hidden; */
-}
+		.review_center {
+			width: 100%;
+		}
 
 /*-------------------------------------------------------*/
 
  /* 사이드 이펙트1 */
- .side1 {
-	/* position: relative;
-	perspective: 600px; 
-	display: block; */
-	width: 60%;
-	margin: 0 auto 2vh;
-	border: 1px solid #ddd;
-	/* height: 100%;
-	overflow: hidden; */
-}
+		.review {
+			width: 60%;
+			margin: 0 auto 2vh;
+			border: 1px solid #ddd;
+		}
 
-.side1 img {
-	width: 100%;
-}
+		.review .front {
+			background-image: url();
+ 		}
 
- .side1 .front {
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
-	transform: rotateY(0deg);
-	transition: all 0.5s ease-in-out;
-	backface-visibility: hidden;
-	background-image: url();
-	background-repeat: no-repeat;
-	background-position: center;
- }
- .side1 .back {
-	 position: absolute; top: 0; left: 0;
-	 width: 100%; height: 100%; z-index: -1;
-	 transform-style: preserve-3d;
-	 color: #fff;
-	 /* background: #4038dc; */
-	 transform: rotateY(-180deg);
-	 transition: all 0.5s ease-in-out;
-	 backface-visibility: hidden;
-	 background-image: url(../images/06_review/review_img_or_01.jpg);
-	 background-repeat: no-repeat;
-	 background-position: center;
-	 background-size: cover;
- }
+ 		.review .back {
+			background-image: url(../images/06_review/review_img_or_01.jpg);
+			background-size: cover;
+ 		}
 
-.side2 .front {
-	background-image: url();
-	background-repeat: no-repeat;
-	background-position: center;
-}
+		.side2 .front {
+			background-image: url();
+		}
 
-.side2 .back {
-	background-image: url(../images/06_review/review_img_or_02.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
+		.side2 .back {
+			background-image: url(../images/06_review/review_img_or_02.jpg);
+			background-size: cover;
+		}
 
-.side3 .front {
-	background-image: url();
-	background-repeat: no-repeat;
-	background-position: center;
-}
+		.side3 .front {
+			background-image: url();
+		}
 
-.side3 .back {
-	background-image: url(../images/06_review/review_img_or_03.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-
-
- .side1 .back i {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 60px;}
- .side1:hover .front {transform: rotateY(180deg)}
- .side1:hover .back {transform: rotateY(0deg); z-index: 1;}
+		.side3 .back {
+			background-image: url(../images/06_review/review_img_or_03.jpg);
+			background-size: cover;
+		}
 
  /*-------------------------------------------------------*/
 
- .review_text {
-	text-align: center;
- }
-
- .review_text h1 {
-	color: #4e6458;
-	margin: 20px 0;
-} 
-
-.review_text p {
-	color: #a67c52;
-	font-size: 17px;
-	font-weight: 700;
-	margin: 10px 0 20px;
-}
+/*-------------------------------------------------------*/
+		.review_box {
+			flex-direction: column;
+		}
+	}
 
 /*-------------------------------------------------------*/
-.side_box {
-	width: 100%;
-	margin: 20px 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-.side_box .side1 {
-	text-align: center;
-}	
-
-.front_text {
-	padding: 20px;
-}
-
-.front h2 {
-	color: #4e6458;
-	margin: 10px 0;
-}
-
-.side1_tx1 {
-	font-size: 16px;
-	color: #a67c52;
-	padding: 20px 0;
-	border-top: 1px solid #a67c52;
-	border-bottom: 1px solid #a67c52;
-}
-
-.review_br {
-	display: block;
-}
-
-.side1_tx2 {
-	font-size: 15px;
-	color: #9c9c9c;
-	padding: 20px 0;
-}
-
-.side1_tx3 {
-	color: #9c9c9c;
-}
-}
-
+/* 06_BEST review - 768 ~ 371px (tablet) */
 /*-------------------------------------------------------*/
-/* 768 ~ 371px */
-/*-------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-	/* #review_wrap {
-	width: 100%;
-} */
-
-.review_center {
-	width: 100%;
-	/* margin: 0 auto;
-	overflow: hidden; */
-	margin-bottom: 100px;
-}
+	@media screen and (max-width: 768px) {
+	
+		#review_wrap {
+			margin-bottom: 50px;
+		}
+		
+		.review_center {
+			width: 100%;
+		}	
 
 /*-------------------------------------------------------*/
 
- /* 사이드 이펙트1 */
- .side1 {
-	/* position: relative;
-	perspective: 600px; 
-	display: block; */
-	width: 90%;
-	margin: 0 auto 2vh;
-	border: 1px solid #ddd;
-	/* height: 100%;
-	overflow: hidden; */
-}
+ 		/* 사이드 이펙트1 */
+ 		.review {
+			width: 90%;
+			margin: 0 auto 2vh;
+			border: 1px solid #ddd;
+		}
 
-.side1 img {
-	width: 100%;
-}
+		.review .front {
+			background-image: url();
+ 		}
+ 		.review .back {
+			background-image: url(../images/06_review/review_img_or_01.jpg);
+			background-size: cover;
+ 		}
 
- .side1 .front {
-	/* width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
-	transform: rotateY(0deg);
-	transition: all 0.5s ease-in-out;
-	backface-visibility: hidden; */
-	background-image: url();
-	/* background-repeat: no-repeat;
-	background-position: center; */
- }
- .side1 .back {
-	 /* position: absolute; top: 0; left: 0;
-	 width: 100%; height: 100%; z-index: -1;
-	 transform-style: preserve-3d;
-	 color: #fff; */
-	 /* background: #4038dc; */
-	 /* transform: rotateY(-180deg);
-	 transition: all 0.5s ease-in-out;
-	 backface-visibility: hidden; */
-	 background-image: url(../images/06_review/review_img_or_01.jpg);
-	 /* background-repeat: no-repeat;
-	 background-position: center; */
-	 background-size: cover;
- }
+		.review_2 .front {
+			background-image: url();
+		}
 
-.side2 .front {
-	background-image: url();
-	/* background-repeat: no-repeat;
-	background-position: center; */
-}
+		.review_2 .back {
+			background-image: url(../images/06_review/review_img_or_02.jpg);
+			background-size: cover;
+		}
 
-.side2 .back {
-	background-image: url(../images/06_review/review_img_or_02.jpg);
-	/* background-repeat: no-repeat;
-	background-position: center; */
-	background-size: cover;
-}
+		.review_3 .front {
+			background-image: url();
+		}
 
-.side3 .front {
-	background-image: url();
-	/* background-repeat: no-repeat;
-	background-position: center; */
-}
+		.review_3 .back {
+			background-image: url(../images/06_review/review_img_or_03.jpg);
+			background-size: cover;
+		}
 
-.side3 .back {
-	background-image: url(../images/06_review/review_img_or_03.jpg);
-	/* background-repeat: no-repeat;
-	background-position: center; */
-	background-size: cover;
-}
-
-
-
- /* .side1 .back i {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 60px;}
- .side1:hover .front {transform: rotateY(180deg)}
- .side1:hover .back {transform: rotateY(0deg); z-index: 1;} */
-
- /*-------------------------------------------------------*/
-
- /* .review_text {
-	text-align: center;
- } */
-
- /* .review_text h1 {
-	font-size: 18px;
-	color: #4e6458;
-	margin: 20px 0;
-} 
-
-.review_text p {
-	color: #a67c52;
-	font-size: 15px;
-	font-weight: 700;
-	margin: 10px 0 20px;
-} */
-
-/*-------------------------------------------------------*/
-/* .side_box {
-	width: 100%;
-	margin: 20px 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-} */
-/* .side_box .side1 {
-	text-align: center;
-}	 */
-
-/* .front_text {
-	padding: 20px;
-}
-
-.front h2 {
-	color: #4e6458;
-	margin: 10px 0;
-}
-
-.side1_tx1 {
-	font-size: 16px;
-	color: #a67c52;
-	padding: 20px 0;
-	border-top: 1px solid #a67c52;
-	border-bottom: 1px solid #a67c52;
-}
-
-.review_br {
-	display: block;
-}
-
-.side1_tx2 {
-	font-size: 15px;
-	color: #9c9c9c;
-	padding: 20px 0;
-}
-
-.side1_tx3 {
-	color: #9c9c9c;
-} */
-}
+	}
 	
 /*-------------------------------------------------------*/
-/* 371px */
+/* 06_BEST review - 370 ~ 0px (mobile) */
 /*-------------------------------------------------------*/
-@media screen and (max-width: 370px) {
-	/* #review_wrap {
-	width: 100%;
-} */
+	@media screen and (max-width: 370px) {
+	
+		#review_wrap {
+			margin-bottom: 50px;
+		}
 
-.review_center {
-	width: 100%;
-	/* margin: 0 auto;
-	overflow: hidden; */
-	margin-bottom: 50px;
-}
+		.review_center {
+		width: 100%;
+		}
 
 /*-------------------------------------------------------*/
 
- /* 사이드 이펙트1 */
- .side1 {
-	/* position: relative;
-	perspective: 600px; 
-	display: block; */
-	width: 90%;
-	margin: 0 auto 2vh;
-	border: 1px solid #ddd;
-	/* height: 100%;
-	overflow: hidden; */
-}
+ 		/* 사이드 이펙트1 */
+ 		.review {
+			width: 90%;
+			margin: 0 auto 2vh;
+			border: 1px solid #ddd;
+		}
 
-.side1 img {
-	width: 100%;
-}
+ 		.review .front {
+			background-image: url();
+ 		}
 
- .side1 .front {
-	background-image: url();
- }
- .side1 .back {
-	 background-image: url(../images/06_review/review_img_or_01.jpg);
-	 background-size: cover;
- }
+ 		.review .back {
+		 background-image: url(../images/06_review/review_img_or_01.jpg);
+		 background-size: cover;
+		}
 
-.side2 .front {
-	background-image: url();
-	/* background-repeat: no-repeat;
-	background-position: center; */
-}
+		.review_2 .front {
+			background-image: url();
+		}
 
-.side2 .back {
-	background-image: url(../images/06_review/review_img_or_02.jpg);
-	/* background-repeat: no-repeat;
-	background-position: center; */
-	background-size: cover;
-}
+		.review_2 .back {
+			background-image: url(../images/06_review/review_img_or_02.jpg);
+			background-size: cover;
+		}
 
-.side3 .front {
-	background-image: url();
-	/* background-repeat: no-repeat;
-	background-position: center; */
-}
+		.review_3 .front {
+			background-image: url();
+		}
 
-.side3 .back {
-	background-image: url(../images/06_review/review_img_or_03.jpg);
-	/* background-repeat: no-repeat;
-	background-position: center; */
-	background-size: cover;
-}
+		.review_3 .back {
+			background-image: url(../images/06_review/review_img_or_03.jpg);
+			background-size: cover;
+		}
 
-}
+	}
 	
 /*-------------------------------------------------------*/
 /*07_SALE EVENT*/
