@@ -9,16 +9,14 @@
 <!--파비콘-->
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
 <!--main css-->
+<link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/main_style.css">
 <!-------------------------------------------------------------------------->
 <!-- main banner -->
 <link rel="stylesheet" type="text/css" href="css/02_main_banner/slick.css">
 <!-------------------------------------------------------------------------->
-<!-- ㅠㄷㄴㅅ -->
+<!-- lightgallery -->
 <link rel="stylesheet" type="text/css" href="css/04_best/lightgallery.css">
-<!-------------------------------------------------------------------------->
-
-
 <!-------------------------------------------------------------------------->
 </head>
 <!-------------------------------------------------------------------------->
@@ -48,10 +46,9 @@
 	</div>
 <!-- //01_header menu//-->
 <!-------------------------------------------------------------------------->
-
-
-
-<!-- 02_main banner -->
+<!-------------------------------------------------------------------------->
+<!--02_main banner-->
+<!-------------------------------------------------------------------------->
 <div id="main_wrap">
 	<div class="banner_center">
 		<div class="slider">
@@ -98,13 +95,16 @@
 <!-------------------------------------------------------------------------->
 <!-------------------------------------------------------------------------->
 </header><!-- //header id="header_wrap -->
+<!-------------------------------------------------------------------------->
 
 <!-- mobile menu jQuery 불러오기 -->
 <script src="js/mobile_menu/jquery-3.6.0.min.js"></script>
 <script src="js/mobile_menu/custom.js"></script>
 <!-- main banner jQuery 불러오기 -->
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+<script type="text/javascript" src="js/main_banner/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/main_banner/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="js/main_banner/slick.min.js"></script>
 
 <script type="text/javascript">
@@ -131,8 +131,9 @@
 
 
 <!-------------------------------------------------------------------------->
-<!--//03_about us-->
+<!--03_about us-->
 <!-------------------------------------------------------------------------->
+
 <div id="about_wrap">
 	<div class="about_center">
 		<div class="about_text">
@@ -176,6 +177,12 @@
 </div><!-- //about_wrap -->
 
 <!-------------------------------------------------------------------------->
+<!--//03_about us-->
+<!-------------------------------------------------------------------------->
+
+
+
+<!-------------------------------------------------------------------------->
 <!--04_BEST product-->
 <!-------------------------------------------------------------------------->
 <div id="best_wrap">
@@ -187,16 +194,16 @@
 		</div>
 		<!-- 라이트갤러리 -->
 		<div class="best_picbox clearfix">
-			<a href="images/04_best/icon_img_or (1).jpg"><img src="images/04_best/icon_img_198_01.png"><em>BEST 01.</em></a>
-			<a href="images/04_best/icon_img_or (2).jpg"><img src="images/04_best/icon_img_198_02.png"><em>BEST 02.</em></a>
-			<a href="images/04_best/icon_img_or (3).jpg"><img src="images/04_best/icon_img_198_03.png"><em>BEST 03.</em></a>
-			<a href="images/04_best/icon_img_or (4).jpg"><img src="images/04_best/icon_img_198_04.png"><em>BEST 04.</em></a>
-			<a href="images/04_best/icon_img_or (5).jpg"><img src="images/04_best/icon_img_198_05.png"><em>BEST 05.</em></a>
-			<a href="images/04_best/icon_img_or (6).jpg"><img src="images/04_best/icon_img_198_06.png"><em>BEST 06.</em></a>
-			<a href="images/04_best/icon_img_or (7).jpg"><img src="images/04_best/icon_img_198_07.png"><em>BEST 07.</em></a>
-			<a href="images/04_best/icon_img_or (8).jpg"><img src="images/04_best/icon_img_198_08.png"><em>BEST 08.</em></a>
-			<a href="images/04_best/icon_img_or (9).jpg"><img src="images/04_best/icon_img_198_09.png"><em>BEST 09.</em></a>
-			<a href="images/04_best/icon_img_or (10).jpg"><img src="images/04_best/icon_img_198_10.png"><em>BEST 10.</em></a>
+			<a href="images/04_best/icon_img_or_01.jpg"><img src="images/04_best/icon_img_198_01.png"><em>BEST 01.</em></a>
+			<a href="images/04_best/icon_img_or_02.jpg"><img src="images/04_best/icon_img_198_02.png"><em>BEST 02.</em></a>
+			<a href="images/04_best/icon_img_or_03.jpg"><img src="images/04_best/icon_img_198_03.png"><em>BEST 03.</em></a>
+			<a href="images/04_best/icon_img_or_04.jpg"><img src="images/04_best/icon_img_198_04.png"><em>BEST 04.</em></a>
+			<a href="images/04_best/icon_img_or_05.jpg"><img src="images/04_best/icon_img_198_05.png"><em>BEST 05.</em></a>
+			<a href="images/04_best/icon_img_or_06.jpg"><img src="images/04_best/icon_img_198_06.png"><em>BEST 06.</em></a>
+			<a href="images/04_best/icon_img_or_07.jpg"><img src="images/04_best/icon_img_198_07.png"><em>BEST 07.</em></a>
+			<a href="images/04_best/icon_img_or_08.jpg"><img src="images/04_best/icon_img_198_08.png"><em>BEST 08.</em></a>
+			<a href="images/04_best/icon_img_or_09.jpg"><img src="images/04_best/icon_img_198_09.png"><em>BEST 09.</em></a>
+			<a href="images/04_best/icon_img_or_10.jpg"><img src="images/04_best/icon_img_198_10.png"><em>BEST 10.</em></a>
 		</div>
 	</div><!-- //best_center -->
 </div><!-- //best_wrap -->
@@ -349,38 +356,104 @@
 			<strong class="new_br">추구하는 가치와 목적에 알맞는 디자인 템플릿을 구성</strong>
 			</p>
 		</div>
-		<div class="new_picbox">
-		<div class="side3">
-			<figure>
-			<a href="#"><img src="images/08_new/new_img_240_01.png"></a>
-			<figcaption><h3>BUSINESS<em>CARD</em></h3></figcaption>
-			</figure>
-		</div>
-		<div class="side3">
-			<figure>
-			<a href="#"><img src="images/08_new/new_img_240_02.png"></a>
-			<figcaption><h3>STICKER</h3></figcaption>
-			</figure>
-		</div>
-		<div class="side3">
-			<figure>
-			<a href="#"><img src="images/08_new/new_img_240_03.png"></a>
-			<figcaption><h3>MARKERING</h3></figcaption>
-			</figure>
-		</div>
-		<div class="side3">
-			<figure>
-			<a href="#"><img src="images/08_new/new_img_240_04.png"></a>
-			<figcaption><h3>PLANNED<em>PRODUCT</em></h3></figcaption>
-			</figure>
-		</div>
-		<div class="side3">
-			<figure>
-			<a href="#"><img src="images/08_new/new_img_240_05.png"></a>
-			<figcaption><h3>MAKE TO<em>ORDER</em></h3></figcaption>
-			</figure>
-		</div>
-		</div>
+		<div class="new_picbox clearfix">
+		
+			<div class="newbox">
+				<div class="newbox_contents">
+						<a href="#"><img src="images/08_new/new_img_240_01.png"></a>
+					<div class="newbox_text">
+						<h3>BUSINESS<em>CARD</em></h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="newbox">
+				<div class="newbox_contents">
+						<a href="#"><img src="images/08_new/new_img_240_02.png"></a>
+					<div class="newbox_text">
+						<h3>STICKER</h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="newbox">
+				<div class="newbox_contents">
+						<a href="#"><img src="images/08_new/new_img_240_03.png"></a>
+					<div class="newbox_text">
+						<h3>MARKERING</h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="newbox">
+				<div class="newbox_contents">
+						<a href="#"><img src="images/08_new/new_img_240_04.png"></a>
+					<div class="newbox_text">
+						<h3>PLANNED<em>PRODUCT</em></h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="newbox">
+				<div class="newbox_contents">
+					<a href="#"><img src="images/08_new/new_img_240_05.png"></a>
+					<div class="newbox_text">
+						<h3>MAKE TO<em>ORDER</em></h3>
+					</div>
+				</div>
+			</div>
+
+		</div><!-- //new_picbox clearfix -->
+
+		<!-- mobile_new_picbox clearfix -->
+		<div class="m_new_picbox clearfix">
+
+			<div class="newbox">
+				<div class="newbox_contents">
+					<a href="#"><img src="images/08_new/new_img_mobile_01.png"></a>
+					<div class="newbox_text">
+						<h3>MAKE TO<em>ORDER</em></h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="newbox">
+				<div class="newbox_contents">
+					<a href="#"><img src="images/08_new/new_img_mobile_02.png"></a>
+					<div class="newbox_text">
+						<h3>STICKER</h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="newbox">
+				<div class="newbox_contents">
+					<a href="#"><img src="images/08_new/new_img_mobile_03.png"></a>
+					<div class="newbox_text">
+						<h3>MARKERING</h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="newbox">
+				<div class="newbox_contents">
+					<a href="#"><img src="images/08_new/new_img_mobile_04.png"></a>
+					<div class="newbox_text">
+						<h3>PLANNED<em>PRODUCT</em></h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="newbox">
+				<div class="newbox_contents">
+					<a href="#"><img src="images/08_new/new_img_mobile_05.png"></a>
+					<div class="newbox_text">
+						<h3>MAKE TO<em>ORDER</em></h3>
+					</div>
+				</div>
+			</div>
+			
+		</div><!-- //new_picbox clearfix -->
 	</div><!-- //best_center -->
 </div><!-- //best_wrap -->
 
@@ -418,5 +491,7 @@
 <!------------------------------------------------------------------------>
 <!--//08_footer//-->
 <!------------------------------------------------------------------------>
+
+
 </body>
 </html>
