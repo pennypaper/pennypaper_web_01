@@ -791,8 +791,8 @@ body {
 	
 
 /*-------------------------------------------------------*/
-/* 06_BEST review - 1920 ~ 1320px (PC) */
-/*-------------------------------------------------------*/
+	/* 06_BEST review - 1920 ~ 1320px (PC) */
+	/*-------------------------------------------------------*/
 
 	#review_wrap {
 		width: 100%;
@@ -805,7 +805,20 @@ body {
 		overflow: hidden;
 	}
 
-/*-------------------------------------------------------*/
+	/*-------------------------------------------------------*/
+
+	.review_box {
+		width: 100%;
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.review_box .review {
+		text-align: center;
+	}
+
+	/*-------------------------------------------------------*/
 
 	/* 사이드 이펙트1 */
 	.review {
@@ -828,9 +841,10 @@ body {
 		transform: rotateY(0deg);
 		transition: all 0.5s ease-in-out;
 		backface-visibility: hidden;
-		background-image: url(../images/06_review/review_img_390_02_01.png);
+		background-image: url(../images/06_review/review_1200_bg_black_01.png);
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
 	}
 	.review .back {
 		position: absolute; top: 0; left: 0;
@@ -841,33 +855,38 @@ body {
 		transform: rotateY(-180deg);
 		transition: all 0.5s ease-in-out;
 		backface-visibility: hidden;
-		background-image: url(../images/06_review/review_img_390_01.png);
+		background-image: url(../images/06_review/review_1200_bg_01.png);
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
 	}
 
 	.review_2 .front {
-		background-image: url(../images/06_review/review_img_390_02_02.png);
+		background-image: url(../images/06_review/review_1200_bg_black_02.png);
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
 	}
 
 	.review_2 .back {
-		background-image: url(../images/06_review/review_img_390_02.png);
+		background-image: url(../images/06_review/review_1200_bg_02.png);
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
 	}
 
 	.review_3 .front {
-		background-image: url(../images/06_review/review_img_390_02_03.png);
+		background-image: url(../images/06_review/review_1200_bg_black_03.png);
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
 	}
 
 	.review_3 .back {
-		background-image: url(../images/06_review/review_img_390_03.png);
+		background-image: url(../images/06_review/review_1200_bg_03.png);
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
 	}
 
 
@@ -875,7 +894,7 @@ body {
 	.review:hover .front {transform: rotateY(180deg)}
 	.review:hover .back {transform: rotateY(0deg); z-index: 1;}
 
- /*-------------------------------------------------------*/
+	/*-------------------------------------------------------*/
 
 	.review_text {
 		text-align: center;
@@ -888,22 +907,11 @@ body {
 
 	.review_text p {
 		font-family: 'NEXON Lv2 Gothic';
-		font-weight: 700;
+		font-weight: 600;
 		color: #a67c52;
 		font-size: 17px;
 		margin: 10px 0 20px;
 	}
-
-/*-------------------------------------------------------*/
-	.review_box {
-		width: 100%;
-		margin: 20px 0;
-		display: flex;
-		justify-content: space-between;
-	}
-	.review_box .review {
-		text-align: center;
-	}	
 
 	.front_text {
 		padding: 20px;
@@ -917,10 +925,7 @@ body {
 	.review_tx1 {
 		font-family: 'NEXON Lv2 Gothic';
 		font-size: 16px;
-		color: #ffc68c;
-		padding: 20px 0;
-		border-top: 1px solid #ffc68c;
-		border-bottom: 1px solid #ffc68c;
+		color: #ffc68c;	
 	}
 
 	.review_tx2 {
@@ -938,6 +943,24 @@ body {
 		color: #d8d8d8;
 	}
 
+	strong {
+		font-weight: normal;
+	}
+
+	.review_line {
+		padding: 20px 0;
+		border-top: 1px solid #ffc68c;
+		border-bottom: 1px solid #ffc68c;
+	}
+
+	.review_font {
+		font-family: 'GmarketSansMedium';
+		font-size: 16px;
+		color: #ffc68c;	
+		font-weight: 700;
+		padding-top: 10px;
+	}
+
 
 /*-------------------------------------------------------*/
 /* 06_BEST review - 1319 ~ 769px (PC) */
@@ -951,38 +974,11 @@ body {
 
 /*-------------------------------------------------------*/
 
-			/* 사이드 이펙트1 */
+ /* 사이드 이펙트1 */
 			.review {
 				width: 60%;
 				margin: 0 auto 2vh;
 				border: 1px solid #ddd;
-			}
-
-			.review .front {
-				background-image: url();
-			}
-
-			.review .back {
-				background-image: url(../images/06_review/review_img_or_01.jpg);
-				background-size: cover;
-			}
-
-			.side2 .front {
-				background-image: url();
-			}
-
-			.side2 .back {
-				background-image: url(../images/06_review/review_img_or_02.jpg);
-				background-size: cover;
-			}
-
-			.side3 .front {
-				background-image: url();
-			}
-
-			.side3 .back {
-				background-image: url(../images/06_review/review_img_or_03.jpg);
-				background-size: cover;
 			}
 
  /*-------------------------------------------------------*/
@@ -1004,11 +1000,7 @@ body {
 			
 			.review_center {
 				width: 100%;
-			}
-			
-			.review_text p {
-				font-size: 14px;
-			}
+			}	
 
 /*-------------------------------------------------------*/
 
@@ -1018,34 +1010,6 @@ body {
 				margin: 0 auto 2vh;
 				border: 1px solid #ddd;
 			}
-
-			.review .front {
-				background-image: url();
-			}
-			.review .back {
-				background-image: url(../images/06_review/review_img_or_01.jpg);
-				background-size: cover;
-			}
-
-			.review_2 .front {
-				background-image: url();
-			}
-
-			.review_2 .back {
-				background-image: url(../images/06_review/review_img_or_02.jpg);
-				background-size: cover;
-			}
-
-			.review_3 .front {
-				background-image: url();
-			}
-
-			.review_3 .back {
-				background-image: url(../images/06_review/review_img_or_03.jpg);
-				background-size: cover;
-			}
-
-			
 
 		}
 	
@@ -1071,37 +1035,6 @@ body {
 				border: 1px solid #ddd;
 			}
 
-			.review .front {
-				background-image: url();
-			}
-
-			.review .back {
-			background-image: url(../images/06_review/review_img_or_01.jpg);
-			background-size: cover;
-			}
-
-			.review_2 .front {
-				background-image: url();
-			}
-
-			.review_2 .back {
-				background-image: url(../images/06_review/review_img_or_02.jpg);
-				background-size: cover;
-			}
-
-			.review_3 .front {
-				background-image: url();
-			}
-
-			.review_3 .back {
-				background-image: url(../images/06_review/review_img_or_03.jpg);
-				background-size: cover;
-			}
-
-			.review_text p {
-				font-size: 14px;
-			}
-
 		}
 	
 /*-------------------------------------------------------*/
@@ -1111,8 +1044,8 @@ body {
 	#sale_wrap {
 		width: 100%;
 		height: 200px;
-		margin-bottom: 100px;
 		background-color: #996055;
+		margin-bottom: 100px;
 	}
 
 	.sale_center {
@@ -1218,7 +1151,9 @@ body {
 		@media screen and (max-width: 768px) {
 
 			#sale_wrap {
-				margin-bottom: 50px;
+				width: 100%;
+				height: 250px;
+				background-color: #ffffff;
 			}
 
 			.sale_center {
@@ -1229,10 +1164,12 @@ body {
 			.sale_text {
 				width: 100%;
 				height: 150px;
+				background-color: #996055;
 			}
 			
 			.sale_bnn {
 				width: 100%;
+				height: 150px;
 				padding: 10px;
 				background-image: url();
 			}
@@ -1269,9 +1206,11 @@ body {
 		@media screen and (max-width: 370px) {
 
 			#sale_wrap {
-				margin-bottom: 50px;
+				width: 100%;
+				height: 250px;
+				background-color: #ffffff;
 			}
-			
+
 			.sale_center {
 				width: 100%;
 				text-align: center;
@@ -1280,11 +1219,12 @@ body {
 			.sale_text {
 				width: 100%;
 				height: 150px;
+  				background-color: #996055;
 			}
 			
 			.sale_bnn {
 				width: 100%;
-				height: 200px;
+				height: 150px;
 				padding: 10px;
 				background-image: url();
 			}
@@ -1322,7 +1262,7 @@ body {
 
 #new_wrap {
 	width: 100%;
-	margin-bottom: 100px;
+	margin: 0 0 100px;
 	overflow: hidden;
 }
 
@@ -1450,7 +1390,7 @@ body {
 @media screen and (max-width: 768px) {
 
 		#new_wrap {
-			margin-bottom: 50px;
+			margin: 0 0 50px;
 		}
 
 		.new_center {
@@ -1493,7 +1433,7 @@ body {
 	@media screen and (max-width: 370px) {
 
 		#new_wrap {
-			margin-bottom: 50px;
+			margin: 20px 0 50px;
 		}
 
 		.new_center {
